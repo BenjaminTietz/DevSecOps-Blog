@@ -12,6 +12,14 @@ const moreColumn = {
       label: "GitHub",
       href: "https://github.com/BenjaminTietz",
     },
+    {
+      label: "Portfolio",
+      href: "https://benjamin-tietz.com/",
+    },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/benjamin-tietz/",
+    },
   ],
 };
 if (blogEnabled) {
@@ -87,10 +95,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "DevSecOps Docs & Blog",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/favicon.png",
       },
       items: [
         {
