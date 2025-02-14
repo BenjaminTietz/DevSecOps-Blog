@@ -32,7 +32,7 @@ if (blogEnabled) {
 const config: Config = {
   title: "DSO Live Demo Docs",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.png",
 
   // Set the production url of your site here
   url: "https://BenjaminTietz.github.io",
@@ -98,7 +98,7 @@ const config: Config = {
       title: "DevSecOps Docs & Blog",
       logo: {
         alt: "My Site Logo",
-        src: "img/favicon.png",
+        src: "img/logo.png",
       },
       items: [
         {
@@ -111,6 +111,11 @@ const config: Config = {
         {
           href: "https://github.com/BenjaminTietz/DevSecOps-Blog",
           label: "Github",
+          position: "right",
+        },
+        {
+          href: "https://benjamin-tietz.com/",
+          label: "Portfolio",
           position: "right",
         },
       ],
