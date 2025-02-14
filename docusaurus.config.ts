@@ -1,85 +1,83 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 /* TODO: change to read configuration from environment */
-const blogEnabled = false
+const blogEnabled = false;
 
 const moreColumn = {
-  title: 'More',
+  title: "More",
   items: [
     {
-      label: 'GitHub',
-      href: 'https://github.com/spmse',
+      label: "GitHub",
+      href: "https://github.com/BenjaminTietz",
     },
   ],
-}
+};
 if (blogEnabled) {
   moreColumn.items.push({
-    label: 'Blog',
-    href: '/blog',
-  })
+    label: "Blog",
+    href: "/blog",
+  });
 }
 
 const config: Config = {
-  title: 'DSO Live Demo Docs',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: "DSO Live Demo Docs",
+  tagline: "Dinosaurs are cool",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: "https://BenjaminTietz.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/dev-blog-template/',
+  baseUrl: "/dev-blog-template/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'spmse', // Usually your GitHub org/user name.
-  projectName: 'dso-dev-blog', // Usually your repo name.
+  organizationName: "BenjaminTietz", // Usually your GitHub org/user name.
+  projectName: "DevSecOps-Blog", // Usually your repo name.
 
-  deploymentBranch: 'main',
+  deploymentBranch: "main",
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/spmse/dev-blog-template',
+          editUrl: "https://github.com/BenjaminTietz/DevSecOps-Blog",
         },
-        blog: blogEnabled ? 
-          {
-            showReadingTime: true,
-            feedOptions: {
-              type: ['rss', 'atom'],
-              xslt: true,
-            },
-            // Please change this to your repo.
-            // Remove this to remove the "edit this page" links.
-            editUrl:
-              'https://github.com/spmse/dev-blog-template',
-            // Useful options to enforce blogging best practices
-            onInlineTags: 'warn',
-            onInlineAuthors: 'warn',
-            onUntruncatedBlogPosts: 'warn',
-          }
+        blog: blogEnabled
+          ? {
+              showReadingTime: true,
+              feedOptions: {
+                type: ["rss", "atom"],
+                xslt: true,
+              },
+              // Please change this to your repo.
+              // Remove this to remove the "edit this page" links.
+              editUrl: "https://github.com/BenjaminTietz/DevSecOps-Blog",
+              // Useful options to enforce blogging best practices
+              onInlineTags: "warn",
+              onInlineAuthors: "warn",
+              onUntruncatedBlogPosts: "warn",
+            }
           : false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -87,58 +85,58 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: 'My Site',
+      title: "My Site",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "My Site Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Docs",
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/spmse/dev-blog-template',
-          label: 'Github',
-          position: 'right',
+          href: "https://github.com/BenjaminTietz/DevSecOps-Blog",
+          label: "Github",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/guides/intro',
+              label: "Tutorial",
+              to: "/docs/guides/intro",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/docusaurus",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Twitter",
+              href: "https://twitter.com/docusaurus",
             },
           ],
         },
-        moreColumn
+        moreColumn,
         // {
         //   title: 'More',
         //   items: [
@@ -158,17 +156,17 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['powershell', 'hcl'],
+      additionalLanguages: ["powershell", "hcl"],
       magicComments: [
         // Remember to extend the default highlight class name as well!
         {
-          className: 'theme-code-block-highlighted-line',
-          line: 'highlight-next-line',
-          block: {start: 'highlight-start', end: 'highlight-end'},
+          className: "theme-code-block-highlighted-line",
+          line: "highlight-next-line",
+          block: { start: "highlight-start", end: "highlight-end" },
         },
         {
-          className: 'code-block-error-line',
-          line: 'This will error',
+          className: "code-block-error-line",
+          line: "This will error",
         },
       ],
     },
