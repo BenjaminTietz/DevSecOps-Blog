@@ -18,7 +18,7 @@ const moreColumn = {
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/benjamin-tietz/",
+      href: "https://linkedin.com/in/benjamin-tietz/",
     },
   ],
 };
