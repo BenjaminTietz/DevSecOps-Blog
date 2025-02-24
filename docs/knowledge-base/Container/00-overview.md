@@ -2,10 +2,10 @@
 title: Overview
 ---
 
-# What is Docker? 
+# What is Docker?
 
-Docker is a platform for building and deploying containerized application. Theses containers include everything 
-needed to run an application, libraries and configurations. 
+Docker is a platform for building and deploying containerized application. Theses containers include everything
+needed to run an application, libraries and configurations.
 
 ```Dockerfile title="Dockerfile"
 # Use an official Python image as the base

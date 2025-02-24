@@ -2009,6 +2009,13 @@ packages:
     resolution: {integrity: sha512-tE7ztYzXHIeyvc7N+hR3oi7FIbf/NIjVP9hmAt3yMXzrQ072/fpjGLx2GxNxGxUl5V73MEqYzioOMoVhGMJ5cA==}
     engines: {node: '>=10'}
 
+<<<<<<< HEAD
+=======
+  dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
+
+>>>>>>> fix-config
   duplexer@0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
 
@@ -7382,6 +7389,11 @@ snapshots:
     dependencies:
       is-obj: 2.0.0
 
+<<<<<<< HEAD
+=======
+  dotenv@16.4.5: {}
+
+>>>>>>> fix-config
   duplexer@0.1.2: {}
 
   eastasianwidth@0.2.0: {}
