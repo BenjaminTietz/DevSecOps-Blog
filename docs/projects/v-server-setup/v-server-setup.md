@@ -22,9 +22,9 @@ This repository contains step-by-step instructions for setting up a virtual Ubun
 - [1. Prerequisites](#prerequisites)
 - [2. Quickstart](#quickstart)
 - [3. Usage](#usage)
-- [4. Setting Up the V-Server](docs/setup.md)
-- [5. Git Configuration](docs/git.md)
-- [6. Testing and Validation](docs/testing.md)
+- [4. Setting Up the V-Server](./setup.md)
+- [5. Git Configuration](./git.md)
+- [6. Testing and Validation](./testing.md)
 - [7. Additional Resources](#additional-resources)
 
 ## Prerequisites
