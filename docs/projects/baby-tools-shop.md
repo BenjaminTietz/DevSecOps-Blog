@@ -32,7 +32,7 @@ This Django-based webshop allows users to register, log in, browse products, app
 5. [Screenshots](#photos)
 6. [Contact](#contact)
 7. [Checklist](https://github.com/BenjaminTietz/baby-tools-shop/blob/main/checklist_update.pdf)
-8. [Docker Cheat-Sheet](https://github.com/BenjaminTietz/baby-tools-shop/blob/main/docker-cheatsheet.md0)
+8. [Docker Cheat-Sheet](https://github.com/BenjaminTietz/baby-tools-shop/blob/main/docker-cheatsheet.md)
 
 ## Quickstart
 
@@ -155,24 +155,24 @@ sudo apt update && sudo apt install -y docker.io docker-compose git
 
 ##### Home Page with login
 
-<img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323080815407.jpg"></img>
+![Home Page with login](/img/projects/baby-shop/capture_20220323080815407.jpg)
 
 ##### Home Page with filter
 
-<img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323080840305.jpg"></img>
+![Home Page with filter](/img/projects/baby-shop/capture_20220323080840305.jpg)
 
 ##### Product Detail Page
 
-<img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323080934541.jpg"></img>
+![Product Detail Page](/img/projects/baby-shop/capture_20220323080934541.jpg)
 
 ##### Home Page with no login
 
-<img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323080953570.jpg"></img>
+![Home Page with no login](/img/projects/baby-shop/capture_20220323080953570.jpg)
 
 ##### Register Page
 
-<img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323081016022.jpg"></img>
+![Register Page](/img/projects/baby-shop/capture_20220323081016022.jpg)
 
 ##### Login Page
 
-<img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323081044867.jpg"></img>
+![Login Page](/img/projects/baby-shop/capture_20220323081044867.jpg)
