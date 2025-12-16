@@ -103,7 +103,7 @@ sudo apt update && sudo apt install -y docker.io
 
 The application uses environment variables to configure certain aspects of the system. These can be set in the `.env` file:
 
-[simple_env_config.env](truck_signs_designs/settings/simple_env_config.env)
+[simple_env_config.env](https://github.com/BenjaminTietz/truck_signs_api/blob/main/truck_signs_designs/settings/simple_env_config.env)
 
 ### **Managing the Database**
 
