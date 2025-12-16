@@ -58,7 +58,7 @@ minecraft-server/
    git clone git@github.com:BenjaminTietz/minecraft-server.git
    cd mincraft-server
    ```
-3. **Generate and configure the .env file:** <br>
+3. **Generate and configure the .env file:** <br/>
    The environment file will be created automatically from env.template.
    Adjust the values to match your setup (optional):
    ```sh
